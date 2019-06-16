@@ -13,9 +13,9 @@ def hello():
 def members():
     return "Members"
 
-@app.route("/friends")
-def friends():
-    return "friends"
+@app.route("/test")
+def test():
+    return "test"
 
 if __name__ == "__main__":
     app.run(debug=True,host='0.0.0.0')
