@@ -12,9 +12,6 @@ def hello():
 @app.route("/members")
 def members():
     return "Members"
-
-
-
 @app.route("/test")
 def test():
     return "test"
